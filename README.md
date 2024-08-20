@@ -4,6 +4,6 @@ Aquí se encuentra la función recursiva en el archivo RecursiveFunction.kt y se
 - Diagrama de Clases:
 <div align="center"> 
   
-![Alter](img/class.png)
+![Alter](Img/class.png)
 
 </div>
