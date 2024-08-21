@@ -10,12 +10,7 @@ Ahora vamos a definir la función que retornará la cantidad de veces que se hac
 fun recursiveFunction(izquierda:Int, derecha:Int): Int{
     if(derecha == 0){
        return throw IllegalArgumentException("No se puede dividir por cero")
-    }else if(!(izquierda < derecha)){
-         return recursiveFunction(izquierda-derecha, derecha) + 1
-    }else{
-        return 0
-    }  
-}
+    }else if(!(izquierda < derecha
 ```
                            
 ### Imagenes
