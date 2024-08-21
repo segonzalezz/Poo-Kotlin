@@ -5,12 +5,18 @@ Vamos a basarnos en esta imagen para poder hacer el metodo de recursividad donde
 ![Alter](Img/table.png)
 
 </div>
-Ahora vamos a definir la función que retornará la cantidad de veces que se hacer el conteo, en este caso seria cuantas veces va hacer la resta, por lo tanto: 
-```Kotlin
+Ahora vamos a definir la función que retornará la cantidad de veces que se hacer el conteo, en este caso seria cuantas veces va hacer la resta, por lo tanto:
+
+```kotlin
 fun recursiveFunction(izquierda:Int, derecha:Int): Int{
     if(derecha == 0){
        return throw IllegalArgumentException("No se puede dividir por cero")
-    }else if(!(izquierda < derecha
+    }else if(!(izquierda < derecha)){
+         return recursiveFunction(izquierda-derecha, derecha) + 1
+    }else{
+        return 0
+    }  
+}
 ```
                            
 ### Imagenes
