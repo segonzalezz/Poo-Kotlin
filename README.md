@@ -24,8 +24,7 @@ fun recursiveFunction(izquierda:Int, derecha:Int): Int{
 }
 ```
 Luego de esto vamos para poder hacer el segundo ejercicio nos vamos a basar en el diagrama de clases:                       
-### Imagenes
-- Diagrama de Clases:
+### Diagrama de Clases
 
 
 <div align="center"> 
